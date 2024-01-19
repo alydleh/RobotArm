@@ -1,0 +1,19 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Dec  2 18:18:32 2017
+
+@author: AlydaHuerta
+"""
+
+# Class to make sure gripper stays closed
+
+# receive continuous (or at a high frequency) signal from gripper motor with current angle
+current_angle=;
+desired_angle=;
+
+
+while (current_angle<(desired_angle+lower_tolerance) and current_angle > (desired_angle+upper_tolerance):
+    current_angle=desired_angle
+    
+    
